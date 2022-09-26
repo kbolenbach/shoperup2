@@ -1,0 +1,19 @@
+/* SUGGESTION BOX */
+.suggestion-box__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 12px;
+
+    h2 {
+        margin: 0;
+        font-size: inherit;
+        color: $color-show-more;
+    }
+
+    a {
+        color: $color-black;
+        font-weight: bold;
+    }
+}
