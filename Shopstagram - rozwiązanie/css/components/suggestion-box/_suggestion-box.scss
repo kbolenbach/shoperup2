@@ -5,15 +5,15 @@
     justify-content: space-between;
     margin-bottom: 15px;
     font-size: 12px;
-}
 
-.suggestion-box__header h2 {
-    margin: 0;
-    font-size: inherit;
-    color: #969696;
-}
+    h2 {
+        margin: 0;
+        font-size: inherit;
+        color: $color-show-more;
+    }
 
-.suggestion-box__header a {
-    color: #000000;
-    font-weight: bold;
+    a {
+        color: $color-black;
+        font-weight: bold;
+    }
 }
