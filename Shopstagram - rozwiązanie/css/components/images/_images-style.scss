@@ -9,14 +9,14 @@
     overflow: hidden;
 
     &.has-border {
-        border: 1px solid $color-img-border;
+        border: 1px solid $colorContrast;
     }
 
     &.is-active {
-        border: 2px solid $color-user-img;
+        border: 2px solid $colorContrast;
 
         img {
-            border: 1px solid $color-white;
+            border: 1px solid $colorWhite;
             border-radius: 100%;
         }
     }

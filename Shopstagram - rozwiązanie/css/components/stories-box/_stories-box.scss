@@ -2,8 +2,8 @@
 .stories-box {
     margin-bottom: 20px;
     padding: 15px 0;
-    background-color: $color-white;
-    border: 1px solid $color-img-border;
+    background-color: $colorWhite;
+    border: 1px solid $secondaryLighter;
     border-radius: 7px;
 
     &__list {
@@ -31,7 +31,7 @@
 
         span {
             font-size: 10px;
-            color: $color-black;
+            color: $colorBlack;
             margin-top: 5px;
         }
     }  
