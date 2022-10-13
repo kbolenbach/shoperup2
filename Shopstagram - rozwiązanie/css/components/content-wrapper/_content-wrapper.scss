@@ -1,31 +1,30 @@
 /* CONTENT WRAPPER */
 
 .content-wrapper {
-    @media screen and (min-width: 800px) {
+    @include breakpoint--tablet {
         display: flex;
         margin: 0 -15px;
     }
 
     &__aside {
         display: none;
-
-        @media screen and (min-width: 800px) {
+        @include breakpoint--tablet {
             padding: 0 15px;
             display: block;
             flex: 1;
-         }
+        }
     }
 
     &__main {
         
-        @media screen and (min-width: 800px) {
+        @include breakpoint--tablet {
             padding: 0 15px;
             width: 70%;
          }
     }
 
     &__aside-user {
-        @media screen and (min-width: 800px) {
+        @include breakpoint--tablet {
             display: flex;
             align-items: center;
             justify-content: space-between;

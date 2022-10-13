@@ -15,26 +15,22 @@
             color: $secondaryDarker;
         }
 
-        h2 {
-            margin: 0 0 3px 0;
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        h3 {
+        h2, h3 {
             margin: 0 0 3px 0;
             font-size: 12px;
             font-weight: bold;
         }
 
         &--big {
-            font-size: 13px;
-
-            &__content {
+            .user-details__content {
+                h2, h3 {
+                    font-size: 13px;
+                }
+        
                 p {
                     font-size: 12px;
                 }
             }
-        } 
+        }
     } 
 }
