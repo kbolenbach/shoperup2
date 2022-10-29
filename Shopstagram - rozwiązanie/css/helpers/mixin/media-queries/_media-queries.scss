@@ -1,0 +1,12 @@
+
+@mixin breakpoint--tablet {
+    @media screen and (max-width: 800px) {
+        @content;
+      }
+}
+
+@mixin breakpoint--desktop {
+    @media screen and (max-width: 1180px) {
+        @content;
+      }
+    }
