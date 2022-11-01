@@ -1,0 +1,52 @@
+$secondaryLighter: #951F2B;
+$primaryLighter: #F5F4D7;
+$secondaryDarker: #535233;
+$colorContrast: #951F2B;
+
+
+
+// @mixin addChristmasLogo () {
+    
+//     &__logo {
+        
+//         position: relative;
+
+//         &::after {
+        
+//             content: "";
+//             display: inline-block;
+//             background-image: url(../images/icons/tree.png);
+//             background-size: cover;
+//             width: 30px;
+//             height: 30px;
+//             left: 120px;
+//             top: -4px;
+//             position: absolute;
+            
+//         }
+
+//     }
+// } 
+
+@import "./base/settings";
+
+
+@mixin themeLogo ($width, $height, $top, $left, $img) {
+   
+    &__logo {
+        
+        position: relative;
+
+    &::after {
+        content: "";
+        display: inline-block;
+        background-size: cover;
+        position: absolute;
+        background-image: url(#{$path}/#{$img});
+        width: #{$width}px;
+        height: #{$height}px;
+        left: #{$left}px;
+        top: #{$top}px;
+        }
+    }
+}

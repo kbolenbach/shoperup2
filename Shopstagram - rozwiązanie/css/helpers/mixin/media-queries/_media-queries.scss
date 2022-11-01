@@ -1,4 +1,3 @@
-
 @mixin breakpoint--tablet {
     @media screen and (max-width: 800px) {
         @content;

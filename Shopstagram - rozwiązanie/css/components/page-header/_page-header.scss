@@ -6,6 +6,7 @@
     border-bottom: 1px solid $secondaryLighter;
 
     &__wrapper {
+      
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -14,10 +15,16 @@
     &__logo {
         flex-shrink: 0;
         
-        img {
-            display: block;
-        }
+            img {
+              display: block;
+            }
+            
     }
+
+    // Christmas logo
+
+    // @include addChristmasLogo;
+    @include themeLogo (30, 30, -4, 120, "tree.png");
 
     &__search {
         display: none;
