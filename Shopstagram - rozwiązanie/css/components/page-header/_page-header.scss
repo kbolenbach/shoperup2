@@ -21,11 +21,6 @@
             
     }
 
-    // Christmas logo
-
-    // @include addChristmasLogo;
-    @include themeLogo (30, 30, -4, 120, "tree.png");
-
     &__search {
         display: none;
 

@@ -1,3 +1,18 @@
+.page-header__logo {
+  position: relative;
+}
+.page-header__logo::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../images/icons/tree.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  left: 120px;
+  top: -4px;
+  position: absolute;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -471,20 +486,6 @@ input:focus {
 }
 .page-header__logo img {
   display: block;
-}
-.page-header__logo {
-  position: relative;
-}
-.page-header__logo::after {
-  content: "";
-  display: inline-block;
-  background-size: cover;
-  position: absolute;
-  background-image: url(../images/icons//tree.png);
-  width: 30px;
-  height: 30px;
-  left: 120px;
-  top: -4px;
 }
 .page-header__search {
   display: none;
