@@ -1,3 +1,18 @@
+.page-header__logo {
+  position: relative;
+}
+.page-header__logo::after {
+  content: "";
+  display: inline-block;
+  background-image: url(../images/icons/tree.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  left: 120px;
+  top: -4px;
+  position: absolute;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -320,7 +335,7 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fafafa;
+  background-color: #F5F4D7;
   font-size: 14px;
 }
 
@@ -398,28 +413,28 @@ a:hover {
   display: flex;
   align-items: center;
   justify-self: center;
-  width: 56;
-  height: 56;
+  width: 56 px;
+  height: 56 px;
   border-radius: 100%;
   overflow: hidden;
 }
 .image-square.has-border {
-  border: 1, solid, #DD2A7C;
+  border: 1px solid #951F2B;
 }
 .image-square.is-active {
-  border: 2, solid, #DD2A7C;
+  border: 2px solid #951F2B;
 }
 .image-square.is-active img {
-  border: 1, solid, #ffffff;
+  border: 1px solid #951F2B;
   border-radius: 100%;
 }
 .image-square--small {
-  width: 32;
-  height: 32;
+  width: 32 px;
+  height: 32 px;
 }
 .image-square--tiny {
-  width: 24;
-  height: 24;
+  width: 24 px;
+  height: 24 px;
 }
 
 /* INPUT */
@@ -444,11 +459,11 @@ input:focus {
 .page-footer {
   padding: 30px 0;
   font-size: 12px;
-  color: #969696;
+  color: #535233;
 }
 .page-footer__nav a {
   margin-right: 10px;
-  color: #969696;
+  color: #535233;
 }
 .page-footer__nav a:last-child {
   margin-right: 0;
@@ -459,7 +474,7 @@ input:focus {
   margin-bottom: 30px;
   padding: 10px 0;
   background-color: #ffffff;
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #951F2B;
 }
 .page-header__wrapper {
   display: flex;
@@ -500,7 +515,7 @@ input:focus {
 .post {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #535233;
   border-radius: 7px;
 }
 .post:last-child {
@@ -530,7 +545,7 @@ input:focus {
   margin-right: 0;
 }
 .post__comments-comment a {
-  color: #969696;
+  color: #535233;
 }
 .post__footer {
   display: flex;
@@ -550,7 +565,7 @@ input:focus {
   margin-bottom: 20px;
   padding: 15px 0;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #535233;
   border-radius: 7px;
 }
 .stories-box__list {
@@ -588,7 +603,7 @@ input:focus {
 .suggestion-box__header h2 {
   margin: 0;
   font-size: inherit;
-  color: #969696;
+  color: #535233;
 }
 .suggestion-box__header a {
   color: #000000;
@@ -623,7 +638,7 @@ input:focus {
 .user-details__content p {
   margin: 0;
   font-size: 11px;
-  color: #969696;
+  color: #535233;
 }
 .user-details__content h2, .user-details__content h3 {
   margin: 0 0 3px 0;

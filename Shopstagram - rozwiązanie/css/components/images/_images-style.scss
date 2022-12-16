@@ -15,7 +15,7 @@
         @include border (2, solid, $colorContrast);
 
         img {
-            @include border (1, solid, $colorWhite);
+            @include border (1, solid, $colorContrast);
             border-radius: 100%;
         }
     }
