@@ -1,0 +1,30 @@
+/* IMAGE SQUARE */
+.image-square {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    @include square (56, 56);
+    border-radius: 100%;
+    overflow: hidden;
+
+    &.has-border {
+        @include border (1, solid, $colorContrast);
+    }
+
+    &.is-active {
+        @include border (2, solid, $colorContrast);
+
+        img {
+            @include border (1, solid, $colorContrast);
+            border-radius: 100%;
+        }
+    }
+
+    &--small {
+        @include square (32, 32);
+    }
+
+    &--tiny {
+        @include square (24, 24);
+    }
+}

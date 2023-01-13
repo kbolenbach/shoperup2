@@ -1,0 +1,32 @@
+/* PAGE HEADER */
+.page-header {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: $colorWhite;
+    border-bottom: 1px solid $secondaryLighter;
+
+    &__wrapper {
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        flex-shrink: 0;
+        
+            img {
+              display: block;
+            }
+            
+    }
+
+    &__search {
+        display: none;
+
+        @media screen and (min-width: 800px) {
+            display: block;
+        }
+
+    }
+}

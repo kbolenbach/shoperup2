@@ -1,0 +1,34 @@
+/* CONTENT WRAPPER */
+
+.content-wrapper {
+    @include breakpoint--tablet {
+        display: flex;
+        margin: 0 -15px;
+    }
+
+    &__aside {
+        display: none;
+        @include breakpoint--tablet {
+            padding: 0 15px;
+            display: block;
+            flex: 1;
+        }
+    }
+
+    &__main {
+        
+        @include breakpoint--tablet {
+            padding: 0 15px;
+            width: 70%;
+         }
+    }
+
+    &__aside-user {
+        @include breakpoint--tablet {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+    }
+}
